@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cfngen"
+version = "0.1.0"
+description = "cfngen is a Python CLI tool for generating dynamic AWS CloudFormation templates."
+authors = ["jd-35656 <jitesh.sahani@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
