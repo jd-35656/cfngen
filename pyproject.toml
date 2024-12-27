@@ -9,6 +9,14 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint]
+max-line-length = 79
 
 [build-system]
 requires = ["poetry-core"]
